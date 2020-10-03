@@ -1,1 +1,2 @@
-FROM thomasweise/docker-texlive-full
+FROM mcr.microsoft.com/vscode/devcontainers/universal
+FROM thomasWeise/texlive
