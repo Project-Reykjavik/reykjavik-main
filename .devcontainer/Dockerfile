@@ -1,2 +1,4 @@
 FROM mcr.microsoft.com/vscode/devcontainers/universal
-FROM thomasWeise/texlive
+
+RUN apt-get update
+RUN apt-get install textlive-full
